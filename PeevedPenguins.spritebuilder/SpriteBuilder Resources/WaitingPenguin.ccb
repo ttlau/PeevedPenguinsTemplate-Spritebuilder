@@ -2310,8 +2310,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
@@ -2359,15 +2357,15 @@
 				<integer>12</integer>
 			</dict>
 			<key>chainedSequenceId</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>length</key>
 			<real>4</real>
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
-			<real>0.0</real>
+			<real>0.46770834922790527</real>
 			<key>position</key>
-			<real>1.2000000476837158</real>
+			<real>2.7333333492279053</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
