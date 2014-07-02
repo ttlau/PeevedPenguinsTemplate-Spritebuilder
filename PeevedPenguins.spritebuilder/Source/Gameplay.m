@@ -34,6 +34,8 @@
     _pullbackNode.physicsBody.collisionMask = @[];
     
     _mouseJointNode.physicsBody.collisionMask = @[];
+    
+    _physicsNode.collisionDelegate = self;
 }
 
 // called on every touch in this scene
