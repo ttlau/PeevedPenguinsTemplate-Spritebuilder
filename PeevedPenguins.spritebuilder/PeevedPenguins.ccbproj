@@ -87,9 +87,11 @@
 		</dict>
 		<key>Sprites</key>
 		<dict/>
-		<key>ccbResources</key>
+		<key>animation</key>
 		<dict>
-			<key>previewFolderHidden</key>
+			<key>isDirty</key>
+			<true/>
+			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
 		<key>ccbResources/ccbButtonHighlighted.png</key>
@@ -107,13 +109,6 @@
 			<integer>1</integer>
 		</dict>
 		<key>ccbResources/ccbParticleFire.png</key>
-		<dict>
-			<key>scaleFrom</key>
-			<integer>1</integer>
-			<key>tabletScale</key>
-			<integer>1</integer>
-		</dict>
-		<key>ccbResources/ccbParticleMagic.png</key>
 		<dict>
 			<key>scaleFrom</key>
 			<integer>1</integer>
