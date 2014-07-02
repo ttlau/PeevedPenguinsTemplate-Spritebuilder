@@ -31,9 +31,6 @@
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
     
-    // visualize physics bodies & joints
-    _physicsNode.debugDraw = true;
-    
     // nothing shall collide with our invisible nodes
     _pullbackNode.physicsBody.collisionMask = @[];
     
@@ -45,25 +42,25 @@
 - (void)update:(CCTime)delta
 {
     if (_currentPenguin.launched){
-    // if speed is below minimum speed, assume this attempt is over
-    if (ccpLength(_currentPenguin.physicsBody.velocity) < MIN_SPEED){
-        [self nextAttempt];
-        return;
-    }
+        // if speed is below minimum speed, assume this attempt is over
+        if (ccpLength(_currentPenguin.physicsBody.velocity) < MIN_SPEED){
+            [self nextAttempt];
+            return;
+        }
+        
+        int xMin = _currentPenguin.boundingBox.origin.x;
+        
+        if (xMin < self.boundingBox.origin.x) {
+            [self nextAttempt];
+            return;
+        }
     
-    int xMin = _currentPenguin.boundingBox.origin.x;
+        int xMax = xMin + _currentPenguin.boundingBox.size.width;
     
-    if (xMin < self.boundingBox.origin.x) {
-        [self nextAttempt];
-        return;
-    }
-    
-    int xMax = xMin + _currentPenguin.boundingBox.size.width;
-    
-    if (xMax > (self.boundingBox.origin.x + self.boundingBox.size.width)) {
-        [self nextAttempt];
-        return;
-    }
+        if (xMax > (self.boundingBox.origin.x + self.boundingBox.size.width)) {
+            [self nextAttempt];
+            return;
+        }
     }
 }
 
