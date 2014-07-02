@@ -276,6 +276,8 @@
 					<real>500</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -1110,7 +1112,7 @@
 									<array>
 										<array>
 											<real>0.3984375</real>
-											<real>17.871063232421875</real>
+											<real>16.878875732421875</real>
 										</array>
 									</array>
 									<key>polygons</key>
@@ -1178,8 +1180,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
