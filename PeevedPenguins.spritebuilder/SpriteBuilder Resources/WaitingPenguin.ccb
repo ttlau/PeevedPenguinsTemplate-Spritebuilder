@@ -16,7 +16,7 @@
 	<key>currentResolution</key>
 	<integer>0</integer>
 	<key>currentSequenceId</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>docDimensionsType</key>
 	<integer>1</integer>
 	<key>fileType</key>
@@ -2348,7 +2348,7 @@
 	<array>
 		<dict>
 			<key>autoPlay</key>
-			<true/>
+			<false/>
 			<key>callbackChannel</key>
 			<dict>
 				<key>keyframes</key>
@@ -2361,11 +2361,11 @@
 			<key>length</key>
 			<real>4</real>
 			<key>name</key>
-			<string>Default Timeline</string>
+			<string>BlinkAndJump</string>
 			<key>offset</key>
-			<real>0.46770834922790527</real>
+			<real>0.9151042103767395</real>
 			<key>position</key>
-			<real>2.7333333492279053</real>
+			<real>3.2666666507720947</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
@@ -2384,7 +2384,7 @@
 		</dict>
 		<dict>
 			<key>autoPlay</key>
-			<false/>
+			<true/>
 			<key>callbackChannel</key>
 			<dict>
 				<key>keyframes</key>
@@ -2395,13 +2395,13 @@
 			<key>chainedSequenceId</key>
 			<integer>1</integer>
 			<key>length</key>
-			<real>10</real>
+			<real>1</real>
 			<key>name</key>
-			<string>BlinkAndJump</string>
+			<string>Default Timeline</string>
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.0</real>
+			<real>0.20000000298023224</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
