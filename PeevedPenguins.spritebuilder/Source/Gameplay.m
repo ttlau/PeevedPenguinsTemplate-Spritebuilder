@@ -189,7 +189,6 @@
     explosion.position = seal.position;
     // add the particle effect to the same node the seal is on
     [seal.parent addChild:explosion];
-    
     // finally, remove the destroyed seal
     [seal removeFromParent];
 }
